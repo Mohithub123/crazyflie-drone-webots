@@ -1,7 +1,7 @@
 # Crazyflie Drone Simulation in Webots
 
-This project demonstrates a Crazyflie drone simulation using the Webots robotics simulator.  
-The drone operates in a simulated environment with obstacles and demonstrates autonomous navigation behavior.
+This project demonstrates a Crazyflie drone simulation using the Webots robotics simulator.
+The drone operates in a simulated environment with obstacles and demonstrates drone navigation and movement within the simulation environment.
 
 ---
 
