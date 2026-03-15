@@ -65,7 +65,7 @@ The environment contains obstacles placed within the simulation world to test dr
 
 ## 🎥 Demo Video
 
-Demo video of the simulation is available in the project submission.
+[Watch the Simulation Video](https://youtu.be/R_RDYusZm50)
 
 ---
 
