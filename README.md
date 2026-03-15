@@ -42,7 +42,16 @@ crazyflie-drone-webots
 │
 └── README.md
 
+## Installation
 
+1. Download and install Webots R2025a
+https://cyberbotics.com/
+
+2. Clone the repository
+
+git clone https://github.com/Mohithub123/crazyflie-drone-webots.git
+
+3. Open Webots simulator
 ---
 
 ## ▶️ How to Run the Simulation
