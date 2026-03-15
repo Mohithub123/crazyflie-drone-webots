@@ -71,7 +71,11 @@ Demo video of the simulation is available in the project submission.
 
 ## 📸 Simulation Screenshot
 
+![Simulation 1](Screenshot%202026-03-15%20171532.png)
 
+![Simulation 2](Screenshot%202026-03-15%20152023.png)
+
+![Simulation 3](Screenshot%202026-03-15%20133221.png)
 
 ---
 
