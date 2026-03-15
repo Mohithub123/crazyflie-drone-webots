@@ -90,7 +90,7 @@ The environment contains obstacles placed within the simulation world to test dr
 
 ## 📌 Future Improvements
 
-- Fully autonomous navigation
+- Advanced drone navigation system
 - Path planning algorithms
 - Obstacle detection using sensors
 - ROS2 integration
