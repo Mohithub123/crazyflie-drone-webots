@@ -1,10 +1,9 @@
 \# Crazyflie Drone Simulation in Webots
 
-
-
 This project demonstrates a Crazyflie drone simulation environment created in Webots.  
 
 The simulation includes an obstacle-rich environment designed for testing drone navigation and control algorithms.
+
 
 
 
@@ -17,6 +16,7 @@ The simulation includes an obstacle-rich environment designed for testing drone 
 \- Modular controller structure for drone control algorithms
 
 \- Demonstration of drone movement in a simulated environment
+
 
 
 
@@ -36,9 +36,9 @@ demo\_video/ – Demonstration video of the simulation
 
 
 
+
+
 \## How to Run
-
-
 
 1\. Open Webots
 
@@ -47,6 +47,7 @@ demo\_video/ – Demonstration video of the simulation
 &#x20;  worlds/crazyflie.wbt
 
 3\. Run the simulation
+
 
 
 
