@@ -1,56 +1,91 @@
-\# Crazyflie Drone Simulation in Webots
+# Crazyflie Drone Simulation in Webots
+
+This project demonstrates a Crazyflie drone simulation using the Webots robotics simulator.  
+The drone operates in a simulated environment with obstacles and demonstrates autonomous navigation behavior.
+
+---
+
+## 🚀 Project Overview
+
+The objective of this project is to simulate a drone system capable of navigating within an environment while avoiding obstacles. The simulation is built using the Webots robotics simulator and programmed using C.
+
+The project demonstrates drone movement, obstacle interaction, and simulation control using Webots.
+
+---
+
+## 🛠 Technologies Used
+
+- Webots R2025a
+- C Programming
+- Crazyflie Drone Model
+- GitHub
+
+---
+
+## 📂 Project Structure
+
+crazyflie-drone-webots
+│
+├── controllers
+│ ├── crazyflie
+│ │ ├── crazyflie.c
+│ │ ├── pid_controller.c
+│ │ └── pid_controller.h
+│ │
+│ └── crazyflie_auto_controller
+│ ├── crazyflie.c
+│ ├── pid_controller.c
+│ └── pid_controller.h
+│
+├── worlds
+│ └── crazyflie.wbt
+│
+└── README.md
+
+
+---
+
+## ▶️ How to Run the Simulation
+
+1. Install **Webots R2025a**
+2. Open Webots
+3. Navigate to:
+worlds/crazyflie.wbt
+
+
+4. Run the simulation.
+
+---
+
+## 🌍 Simulation Environment
+
+The environment contains obstacles placed within the simulation world to test drone navigation and movement.
+
+---
+
+## 🎥 Demo Video
+
+Demo video of the simulation is available in the project submission.
+
+---
+
+## 📸 Simulation Screenshot
 
 
 
-This project demonstrates a Crazyflie drone simulation environment created in Webots.  
+---
 
-The simulation includes an obstacle-rich environment designed for testing drone navigation and control algorithms.
+## 📌 Future Improvements
 
+- Fully autonomous navigation
+- Path planning algorithms
+- Obstacle detection using sensors
+- ROS2 integration
 
+---
 
-\## Features
+## 👨‍💻 Author
 
-\- Crazyflie drone simulation in Webots
+**Mohit Chandravanshi**
 
-\- Obstacle environment for navigation testing
-
-\- Modular controller structure for drone control algorithms
-
-\- Demonstration of drone movement in a simulated environment
-
-
-
-\## Requirements
-
-\- Webots R2025a
-
-
-
-\## Project Structure
-
-controllers/ – Drone control code  
-
-worlds/ – Webots simulation environment  
-
-demo\_video/ – Demonstration video of the simulation
-
-
-
-\## How to Run
-
-
-
-1\. Open Webots
-
-2\. Open the world file:
-
-&#x20;  worlds/crazyflie.wbt
-
-3\. Run the simulation
-
-
-
-\## Demonstration
-
-A demo video showing the drone simulation and obstacle environment is included in the repository.
 
