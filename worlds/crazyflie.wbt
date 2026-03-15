@@ -1,0 +1,101 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/bitcraze/crazyflie/protos/Crazyflie.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/street_furniture/protos/Mailbox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/solids/protos/SolidBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+  info [
+    "Bitcraze's Crazyflie drone."
+    "This simulation allows you to pilot the drone with your keyboard."
+  ]
+  title "Crazyflie"
+}
+Viewpoint {
+  orientation 0.2815563443932953 -0.7675079549137815 -0.5758971818614402 4.998731962681975
+  position -4.538901773175404 -5.343010316005185 2.6921279850878945
+  follow "floor"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+}
+WoodenBox {
+  translation 1.26 0.87 0.63
+  name "wooden box(5)"
+  size 0.2 0.2 1.2
+}
+SolidBox {
+  translation 2.52 3.23 0.64
+  name "box(2)"
+  size 0.2 0.2 1.2
+}
+WoodenBox {
+  translation 0.42 2 0.64
+  name "wooden box(4)"
+  size 0.2 0.2 1.2
+}
+SolidBox {
+  translation 0.53 -1.01 0.61
+  name "box(2)"
+  size 0.2 0.2 1.2
+}
+WoodenBox {
+  translation -1.66 2.38 0.62
+  name "wooden box(3)"
+  size 0.2 0.2 1.2
+}
+WoodenBox {
+  translation 3.2 1.64 0.63
+  name "wooden box(2)"
+  size 0.2 0.2 1.2
+}
+WoodenBox {
+  translation -1.69 -1.67 0.6
+  name "wooden box(1)"
+  size 0.2 0.2 1.2
+}
+WoodenBox {
+  translation 2.07 -1.9 0.61
+  size 0.2 0.2 1.2
+}
+SolidBox {
+  translation 3.72 0 0.6
+  name "box(4)"
+  size 0.2 0.2 1.2
+}
+SolidBox {
+  translation 0 3.54 0.62
+  name "box(3)"
+  size 0.2 0.2 1.2
+}
+SolidBox {
+  translation -1.83 0.57 0.61
+  name "box(2)"
+  size 0.2 0.2 1.2
+}
+SolidBox {
+  translation 0 -2.76 0.61
+  size 0.2 0.2 1.2
+}
+Mailbox {
+  translation -4.49 -4.42 0
+  name "mailbox(1)"
+}
+Mailbox {
+  translation 4.27 4.58 0
+  rotation 0 0 1 3.14159
+}
+Crazyflie {
+  hidden linearVelocity_0 1.0834382212526722e-07 1.0252226130053518e-07 -2.103394195692337e-08
+  hidden angularVelocity_0 5.353930977282022e-07 5.329604032814574e-08 -1.3212895679678717e-07
+  translation -3.7342077687732784 -4.225840168804971 0.737599978009486
+  rotation 9.278811285687387e-08 4.70266221172365e-08 -0.9999999999999944 1.8825326580287387
+  controller "crazyflie_py_wallfollowing"
+}
